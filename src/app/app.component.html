@@ -1,0 +1,36 @@
+<body>
+  <div class="b-example-divider"></div>
+
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a  [routerLink]="['./']" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <span class="fs-4">College Website</span>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-4 justify-content-center mb-md-0 ">
+          <li><a [routerLink]="['/HomePage']" class="nav-link px-2 link-dark">Home</a></li>
+          <li><a [routerLink]="['/StudentDetails']" class="nav-link px-2 link-dark">Student Details</a></li>
+          <li><a [routerLink]="['/TeacherDetails']" class="nav-link px-2 link-dark">Staff Details</a></li>
+          <li><a [routerLink]="['/Contact']"class="nav-link px-2 link-dark">Contact</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        
+      </div>
+    </div>
+  </header>
+  
+<p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, vitae consequuntur animi saepe quae quisquam eius facere. Atque inventore, explicabo dignissimos optio velit ad perspiciatis ratione numquam repellendus unde. Ad assumenda ex repudiandae sequi odio distinctio perspiciatis nemo sapiente accusamus.</p>
+
+<div class="container fixed-bottom">
+  <footer class="py-3 my-4 fixed-bottom">
+   
+    <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+  </footer>
+</div>
+</body>
+<router-outlet></router-outlet>

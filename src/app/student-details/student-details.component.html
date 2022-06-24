@@ -1,0 +1,21 @@
+<p class="m-4">student-details works!</p>
+<table class="table table-striped m-5">
+  <thead >
+    <th>Name</th>
+    <th>Age</th>
+    <th>Mobile.no</th>
+    <th>Address</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let list of student">
+      <td {{ list.Name }}></td>
+      <td {{ list.Age }} ></td>
+      <td {{ list.Mobile }}></td>
+      <td {{ list.Address }}></td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
